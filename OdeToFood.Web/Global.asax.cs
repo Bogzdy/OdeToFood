@@ -6,6 +6,8 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Http;
+using System.Data.Entity;
+using OdeToFood.Data.Services;
 
 namespace OdeToFood.Web
 {
@@ -19,6 +21,7 @@ namespace OdeToFood.Web
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             ContainerConfig.RegisterContainer(GlobalConfiguration.Configuration);
+            Database.SetInitializer<OdeToFoodDbContext>(new DropCreateDatabaseIfModelChanges<OdeToFoodDbContext>());
         }
     }
 }

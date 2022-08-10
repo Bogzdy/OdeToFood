@@ -56,7 +56,6 @@ namespace OdeToFood.Web.Controllers
         [HttpGet]
         public ActionResult Edit(int id)
         {
-            Debug.WriteLine("Edit has hit");
             var model = db.Get(id);
             if (model == null)
             {
@@ -68,12 +67,36 @@ namespace OdeToFood.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(Restaurant restaurant)
         {
+            if(String.IsNullOrEmpty(restaurant.Cuisine.ToString()))
+            {
+                ModelState.AddModelError(nameof(restaurant.Cuisine), "The cuisine type is required");
+            }
             if(ModelState.IsValid)
             {
                 db.Update(restaurant);
+                TempData["Message"] = "You have saved the restaurant!";
                 return RedirectToAction("Details", new {id = restaurant.Id});
             }
             return View(restaurant);
+        }
+
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            var model = db.Get(id);
+            if (model == null)
+            {
+                return View("NotFound");
+            }
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, FormCollection form)
+        {
+            db.Delete(id);
+            return RedirectToAction("Index");
         }
     }
 }

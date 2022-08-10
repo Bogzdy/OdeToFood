@@ -10,3 +10,15 @@ E:\Work\C#\Tutorial\odetofoodmvc\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramew
 E:\Work\C#\Tutorial\odetofoodmvc\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.xml
 E:\Work\C#\Tutorial\odetofoodmvc\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.xml
 E:\Work\C#\Tutorial\odetofoodmvc\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CopyComplete
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.dll.config
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.dll
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.pdb
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.dll
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.dll
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.xml
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.xml
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CoreCompileInputs.cache
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CopyComplete
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.dll
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.pdb
+G:\My Drive\Tutorials\asp.net\OdeToFood\OdeToFood\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.AssemblyReference.cache

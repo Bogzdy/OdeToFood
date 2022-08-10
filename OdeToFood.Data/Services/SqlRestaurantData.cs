@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,21 @@ namespace OdeToFood.Data.Services
         {
             db.Restaurants.Add(restaurant);
             db.SaveChanges(); 
+        }
+
+        public void Delete(int id)
+        {
+            Debug.WriteLine("SqlRestaurantData: Delete() called");
+            try
+            {
+                var restaurantToDelete = Get(id);
+                db.Restaurants.Remove(restaurantToDelete);
+                db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.GetType());
+            }
         }
 
         public Restaurant Get(int id)
